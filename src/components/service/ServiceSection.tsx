@@ -6,15 +6,14 @@ const ServiceSection = () => {
     <section className="service-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span className="fade-in">Welcome to SEOZ</span>
+          <span className="fade-in">Welcome to Digixprt</span>
           <h2 className="char-animation">
-            Generating New <br />
-            Customers Via Online Mode
+            Digital Marketing Strategy<br/>
+           Connect the Right Channels Around the Right Goals
           </h2>
           <p className="mt-3">
-            Welcome to SEOZ your trusted partner for comprehensive SEO and
-            digital marketing solutions. With <br /> our proven expertise and
-            innovative strategies the digital landscape.
+           We connect SEO, PPC, content, social media, and other digital channels
+            around your business goals to reach the right audience,<br />generate qualified leads, and drive measurable growth.
           </p>
         </div>
 

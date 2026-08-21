@@ -18,10 +18,17 @@ import ServiceSection2 from "../components/service/ServiceSection2";
 import TestimonySection from "../components/testimony/TestimonySection";
 import { useCustomContext } from "../context/context";
 
+
+
+
+
 const HomePage1 = () => {
   const { isMenuOpen, toggleMobileMenu } = useCustomContext();
   return (
     <>
+       
+
+          
         <HeaderSection />
         <HeroSection />
         <ServiceSection />

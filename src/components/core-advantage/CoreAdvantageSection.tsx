@@ -92,7 +92,7 @@ const CoreAdvantageSection = ({ variant }: Props) => {
             <div className="col-lg-6">
               <div className="choose-us-img agn-choose-5-img fade-in">
                 <Image
-                  src="assets/img/choose-us/choose-us.png"
+                  src="assets/img/home/proven.webp"
                   alt="img"
                   width={636}
                   height={573}

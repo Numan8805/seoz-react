@@ -36,7 +36,7 @@ const HeaderSection = ({ variant }: Props) => {
               <Link to="/" className="header-logo1">
                 {variant ? (
                   <Image
-                    src="/seoz-react/assets/img/logo/white-logo.svg"
+                    src="/assets/img/logo/white-logo.svg"
                     alt="logo-img"
                     width={135}
                     height={47}

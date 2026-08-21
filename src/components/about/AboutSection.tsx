@@ -10,7 +10,7 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="about-img fix appear_left fade-in">
                 <Image
-                  src="assets/img/about/Frame.png"
+                  src="assets/img/home/about.webp"
                   alt="img"
                   width={636}
                   height={568}

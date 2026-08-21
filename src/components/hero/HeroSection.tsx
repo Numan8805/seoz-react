@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Image from "../utils/Image";
+import "./style.css";
+
 
 const HeroSection = () => {
   return (
@@ -25,10 +27,14 @@ const HeroSection = () => {
           <div className="col-lg-6">
             <div className="hero-content">
               <h1 className="char-animation">
-                Boost Brand with Professional SEO and Marketing
+                Digital Marketing That Helps Your Business Grow
               </h1>
-              <p className="">
-                You can use search engine optimize and our SEO agency.
+              <p className="herocontent">
+             Digixprt is a digital marketing agency helping businesses grow through SEO,
+              web development, PPC advertising, content marketing, social media, mobile app development, and digital strategy.
+              <br/>
+              Being online is only the beginning. Your business needs to be found by the right people,
+               communicate its value clearly, and make it easy for potential customers to take the next step.
               </p>
 
               <div className="client-info smooth-fade-in fade-in">
@@ -52,7 +58,7 @@ const HeroSection = () => {
                   <i className="far fa-arrow-right"></i>
                 </Link>
                 <Link to="/about" className="theme-btn style-2">
-                  Explore More
+                  Get a Free Consultation
                   <i className="far fa-arrow-right"></i>
                 </Link>
               </div>
@@ -61,7 +67,7 @@ const HeroSection = () => {
           <div className="col-lg-6">
             <div className="hero-img">
               <Image
-                src="assets/img/hero/hero-1-img.png"
+                src="assets/img/home/banner.webp"
                 alt="img"
                 className={'smooth-fade-in fade-in'}
                 width={530}
@@ -73,15 +79,6 @@ const HeroSection = () => {
                   alt="img"
                   width={341}
                   height={204}
-                />
-              </div>
-
-              <div className="box-shape-2 float-bob-y">
-                <Image
-                  src="assets/img/hero/box-shape.png"
-                  alt="img"
-                  width={321}
-                  height={230}
                 />
               </div>
             </div>

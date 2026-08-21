@@ -398,7 +398,7 @@ const faqData = [
 const homeOneProjectData = [
   {
     id: "project-1",
-    imageUrl: "assets/img/project/13.jpg",
+    imageUrl: "assets/img/home/seo.webp",
     category: "SEO & Marketing",
     title: "SEO & Marketing",
     description:
@@ -407,7 +407,7 @@ const homeOneProjectData = [
   },
   {
     id: "project-2",
-    imageUrl: "assets/img/project/14.jpg",
+    imageUrl: "assets/img/home/digitalmarketing.webp",
     category: "Digital Marketing",
     title: "Digital Marketing",
     description:
@@ -416,7 +416,7 @@ const homeOneProjectData = [
   },
   {
     id: "project-3",
-    imageUrl: "assets/img/project/15.jpg",
+    imageUrl: "assets/img/home/webdeveloper.webp",
     category: "Web Development",
     title: "Web Development",
     description:
@@ -425,7 +425,7 @@ const homeOneProjectData = [
   },
   {
     id: "project-4",
-    imageUrl: "assets/img/project/16.jpg",
+    imageUrl: "assets/img/home/media.webp",
     category: "Media Marketing",
     title: "Media Marketing",
     description:
@@ -434,7 +434,7 @@ const homeOneProjectData = [
   },
   {
     id: "project-5",
-    imageUrl: "assets/img/project/17.jpg",
+    imageUrl: "assets/img/home/static.webp",
     category: "Investing Strategic",
     title: "Investing Strategic",
     description:
@@ -443,7 +443,7 @@ const homeOneProjectData = [
   },
   {
     id: "project-6",
-    imageUrl: "assets/img/project/09.jpg",
+    imageUrl: "assets/img/home/ppc-expert.webp",
     category: "PPC Advertising",
     title: "PPC Advertising",
     description:

@@ -22,7 +22,7 @@ const ContactSection = () => {
             <div className="col-lg-6">
               <div className="contect-image float-bob-y">
                 <Image
-                  src="assets/img/contact/02.png"
+                  src="assets/img/home/contactus.webp"
                   alt="img"
                   width={576}
                   height={555}
