@@ -24,9 +24,9 @@ import NotFoundPage from "./page/NotFoundPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/seoz-react">
       <ScrollToTop />
-        <Router basename="/seoz-react">
+        <Routes >
           <Route path="/" element={<HomePage1 />} />
           <Route path="/home-2" element={<HomePage2 />} />
           <Route path="/home-3" element={<HomePage3 />} />
@@ -44,7 +44,7 @@ function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/team/:slug" element={<TeamDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
-        </Router>
+        </Routes>
         <AnimationWrapper />
         <BackToTopBtn />
     </Router>
