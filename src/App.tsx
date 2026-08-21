@@ -26,7 +26,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-        <Routes>
+        <Router basename="/seoz-react">
           <Route path="/" element={<HomePage1 />} />
           <Route path="/home-2" element={<HomePage2 />} />
           <Route path="/home-3" element={<HomePage3 />} />
@@ -44,7 +44,7 @@ function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/team/:slug" element={<TeamDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+        </Router>
         <AnimationWrapper />
         <BackToTopBtn />
     </Router>
