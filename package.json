@@ -2,7 +2,6 @@
   "name": "seoz-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Numan8805.github.io/seoz-react",
   "type": "module",
   "scripts": {
     "dev": "vite",
